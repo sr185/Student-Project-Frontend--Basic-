@@ -1,0 +1,55 @@
+ <body>
+
+  
+<nav class="navbar">
+  <div class="navbar-brand"> 
+    <a routerLink="/dashboard" routerLinkActive="active" ariaCurrentWhenActive="page">School-Mangement</a>
+  </div>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Home</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/my-dashboard" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Dashboard</a>
+    </li>
+
+    <li class="nav-item">
+      <a href="/contact" class="nav-link">Contact</a>
+    </li>
+  </ul>
+</nav>
+<div class="dashboard-container">
+  <h2>Dashboard</h2>
+  <p class="welcome-message">Welcome, {{ username }}!</p>
+
+  <div class="stats-cards">
+    <div class="card">
+      <h3>Profile</h3>
+      <p>View and update your profile information.</p>
+    </div>
+    <div class="card">
+      <h3>Grades</h3>
+      <p>Check your academic performance.</p>
+    </div>
+    <div class="card">
+      <h3>Schedule</h3>
+      <p>View your class schedule.</p>
+    </div>
+  </div>
+
+  <div class="announcements">
+    <h3>Announcements</h3>
+    <ul>
+      <li>Upcoming school event on Friday</li>
+      <li>Midterm exams next week</li>
+      <li>New courses available for registration</li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+ </body>
+
+
